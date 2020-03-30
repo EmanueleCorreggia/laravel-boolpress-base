@@ -1,0 +1,27 @@
+//
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.logo_img{
+  width: 300px;
+}
+
+.post_img_top{
+  width: auto;
+}
+
+.photo-img{
+  width: 250px;;
+}
+
+.post_footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  & .post_img_bottom{
+    width: 100px;
+    border-radius: 5px;
+  }
+  & .commands{
+    display: contents;
+  }
+}
